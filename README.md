@@ -2,6 +2,7 @@
 
 
 **Problem and Data Description**
+
 In this project I will pull data we will construct a couple RNNs to classify binary text data as either "disaster" or "not disaster". The data come from a (Kaggle "getting started" competition)[https://www.kaggle.com/competitions/nlp-getting-started/overview] designed to be an excellent introduction to Natural Language Processing. The goal of NLP is to input text data and output something. NLP could output a "mood" for sentiment analysis, a predicted stock price from ticker mentions, more text in the frame of language conversion, and countless other outputs in a variety of applications. I will utilize TensorFlow's Keras API to build a recurrent nueral network to perform binary classification. A recurrent nueral network is suited for data with a fixed series, for example: time series data like stock price, code translation from one language to machine language, next-frame generation from videos and/or gifs, and as I perform in the following project text classification in buckets - disaster vs. not disaster.
 
 The data in this project are tweets. There are three meaningful features: the full text of the tweet, the location from which the tweet was made, and a keyword the authors tagged as potentially indicating an accident. Note that not all keyword inclusions are the result of disasters.
